@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15px,1fr));
+    padding:5px;
+    border: 10px;
+    background-color: lightskyblue;
+    border-radius: 40px;
+   border-right: 200px;
+}
+.a1{
+    margin-left: 300px;
+}
+.a2{
+    color: white;
+    text-align: left;
+}
+.h1{
+  margin-left: 900px;
+}
+#b1{
+    background-color:  rgba(0, 128, 255, 0.975);
+    border: none;
+    color: white;
+    text-indent: 20px;
+}
+.container1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px,1fr));
+    padding:5px;
+    border: 10px;
+    border-radius: 40px;
+   border-right: 200px;
+}
+#h1:hover{
+    color: black;
+}
